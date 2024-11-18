@@ -1,6 +1,6 @@
 #skills {
   padding: 50px 20px;
-  background: linear-gradient(135deg, #FF4081, #3F51B5); /* Gradient background */
+  background: linear-gradient(135deg, #FF4081, #3F51B5); 
   color: #fff;
   text-align: center;
   min-height: 100vh;
@@ -30,7 +30,16 @@
   color: #fff;
   text-align: center;
   backdrop-filter: blur(10px);
+  overflow: hidden;
+  word-wrap: break-word;
 }
+
+.skill-card h3, .skill-card p {
+  margin: 0;
+  overflow-wrap: break-word;
+  text-overflow: ellipsis;
+}
+
 
 .skill-card:hover {
   transform: translateY(-10px);
@@ -43,22 +52,13 @@
 }
 
 .skill-card:hover .icon-container {
-  transform: scale(1.1); /* Slight increase in size on hover */
+  transform: scale(1.1); 
 }
 
-.skill-card h3 {
-  font-size: 1.8rem;
-  margin-bottom: 10px;
-  color: #fff;
-}
 
-.skill-card p {
-  font-size: 1rem;
-  color: #ddd;
-  line-height: 1.5;
-}
 
-/* Animation for the entire section */
+
+
 @keyframes fadeIn {
   0% {
     opacity: 0;

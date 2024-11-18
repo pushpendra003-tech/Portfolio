@@ -14,7 +14,7 @@ const About = () => {
       <div className="experience-section">
         <h2>My Journey</h2>
         <p>
-          With a background in <b>React development</b>, I have mastered the art of building interactive applications using modern frameworks like <b>React.js</b> and <b>Javascript</b>. I’m always eager to learn new technologies and explore creative solutions.
+          With a background in <b>React development</b>, I have mastered the art of building interactive applications using modern Library like <b>React.js</b> . I’m always eager to learn new technologies and explore creative solutions.
         </p>
       </div>
 

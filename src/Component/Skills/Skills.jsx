@@ -21,7 +21,7 @@ const Skills = () => {
     },
     {
       name: 'React',
-      description: 'Building modern single-page applications with React.',
+      description: 'Building modern single-page app',
       icon: <FaReact size={50} color="#61DBFB" />,
     },
   ];
